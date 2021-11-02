@@ -1,12 +1,21 @@
 // Splide
 new Splide('.splide', {
     type: 'loop',
-    height: "400px",
+    height: "500px",
     autoWidth: true,
     gap: "25px",
     arrows: false,
     pagination: false,
     perMove: 1,
+    breakpoints: {
+        800: {
+            height: "400px",
+        },
+
+        600: {
+            height: "300px",
+        }
+    },
 }).mount();
 
 // Intro
