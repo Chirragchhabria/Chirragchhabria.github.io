@@ -1,7 +1,7 @@
 // Splide
 new Splide('.splide', {
     type: 'loop',
-    height: "450px",
+    height: "400px",
     autoWidth: true,
     gap: "25px",
     arrows: false,
