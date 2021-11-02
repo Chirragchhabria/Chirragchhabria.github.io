@@ -68,6 +68,10 @@ p, a {
         margin-right: 0;
         margin-bottom: clamp(32px, 96px, 3vw);
     }
+
+    .cursor {
+        display: none !important;
+    }
 }
 
 .splide img {
