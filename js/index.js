@@ -10,10 +10,12 @@ new Splide('.splide', {
     breakpoints: {
         800: {
             height: "400px",
+            drag: "free",
         },
 
         600: {
             height: "300px",
+            drag: "free",
         }
     },
 }).mount();
