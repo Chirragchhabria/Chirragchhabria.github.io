@@ -22,7 +22,12 @@ tl.from('.row', {
     duration: 1.1,
     stagger: 0.1,
     ease: "expo.inOut"
-}, "<-1");
+}, "<-1").from('.instagram', {
+    x: -100,
+    opacity:0,
+    duration: 0.5,
+    ease: "power3.out"
+}, ">-2");
 
 // Cursor move
 document.addEventListener('mousemove', e => {
